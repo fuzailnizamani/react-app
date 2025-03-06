@@ -1,9 +1,9 @@
 import { createRoot } from "react-dom/client";
+const root = createRoot(document.getElementById("root"));
 
-createRoot(document.querySelector("#root")).render(
-<ul>
-  <li>because i want build website</li>
-  <li>i want to create fast website</li>
-  <li>because i want get a job </li>
-</ul>
+root.render(
+  <main>
+      <img src="../images/react-logo.png"/>
+      <h1>This is another element </h1>
+  </main>
 );
