@@ -4,6 +4,63 @@
 
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #282D35;
+  color: white;
+}
+
+.header{
+  height: 90px;
+  background-color: #21222A;
+  display: flex;
+  border-radius: 2px;
+  padding: 30px 35px;
+ 
+}
+
+.nav-element {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.react-logo {
+  width: 40px;
+  margin-right: 7px;
+}
+
+.title{
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: url('../images/react-logo-half.png');
+  background-repeat:no-repeat;
+  background-position:right 70%;
+}
+
+main > h1 {
+  font-size: 2.4rem;
+  margin-top: 0px;
+}
+
+.unorder-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.unorder-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.unorder-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
 
 /* * {
